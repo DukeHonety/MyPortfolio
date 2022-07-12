@@ -60,6 +60,22 @@ module.exports = {
         current: 'currentColor',
         paarl: '#9C622E',
         corvette: '#FACB99',
+        success: {
+          DEFAULT: '#74B06F',
+          50: '#E8FCE6',
+          75: '#BFE3BC',
+          100: '#74B06F',
+          200: '#63965F',
+        },
+        warning: {
+          DEFAULT: '#F18F01',
+          50: '#FFF5E5',
+          75: '#FFCB80',
+          100: '#F18F01',
+          200: '#E78500',
+          300: '#DD7B00',
+          400: '#D37100',
+        },
         light: {
           DEFAULT: '#D6D6D6',
           50: '#F8F8F8',

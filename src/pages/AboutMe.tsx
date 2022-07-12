@@ -9,8 +9,11 @@ const AboutMe = () =>{
         </div>
 
         <div className="mx-auto w-3/4 flex">
-          <div className = "min-w-[250px] border-r-2 border-white p-10 mr-30">
+          <div className = "min-w-[250px] border-r-2 border-white p-10 mx-30">
             <img src={myImg} alt="Image" className="w-200 bg-dot" />
+            <div className="flex justify-center mt-30">
+              <a className="btn btn-medium m-h-25 btn-primary text-20 font-bold" href="assets/resume.pdf" target="_blank">Download CV</a>
+            </div>
           </div>
           <div className="text-left text-20">
             {
