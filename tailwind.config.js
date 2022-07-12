@@ -60,6 +60,16 @@ module.exports = {
         current: 'currentColor',
         paarl: '#9C622E',
         corvette: '#FACB99',
+        light: {
+          DEFAULT: '#D6D6D6',
+          50: '#F8F8F8',
+          75: '#EAEAEA',
+          100: '#D6D6D6',
+          200: '#BEBEBE',
+          300: '#989898',
+          400: '#6D6D6D',
+          500: '#2C2C2C',
+        },
       },
       margin: (theme, { negative }) => ({
         auto: 'auto',

@@ -2,7 +2,7 @@ import myImg from "../assets/images/about_me.jpg";
 import { aboutMe } from "../core/data/introduce";
 const AboutMe = () =>{
   return(
-    <div id="about-section">
+    <div id="about-section" className="m-20 pb-20 py-100">
       <div className="col-md-9 mx-auto text-center">
         <div className="">
           <label className="text-center text-48 font-bold"><span className="gsap-reveal">Welcome to Caleb Mitchell's site</span></label>
